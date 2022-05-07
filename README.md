@@ -87,6 +87,21 @@ ex) 만약, 심슨에 대한 feature에 age와 sex 2개가 존재하는 상황�
 
 
 
+Gaussian Mixture Model (GMM) with clurstering 
+
+<img width="702" alt="Screenshot 2022-05-07 at 10 23 42" src="https://user-images.githubusercontent.com/84698855/167248078-f496e96b-debf-4f2e-bea8-d27cf2c34dc8.png">
+
+가우시안 분포가 여러 개 혼합된 clustering 알고리즘이다. 현실에 존재하는 복잡한 형태의 확률 분포를 그림과 같이 K개의 gaussian distribution을 혼합하여 표현하자는 것이 GMM의 기본 아이디어이다. (이때 K는 데이터를 분석하고자 하는 사람이 직접 설정해야한다.) 
+
+주어진 데이터 x에 대해 GMM은 x가 발생할 확률을 아래 식 과 같이 여러  Gaussian probability density function 의 합으로 표현한다. 
+
+<img width="663" alt="Screenshot 2022-05-07 at 10 27 42" src="https://user-images.githubusercontent.com/84698855/167248212-c273fb17-9f06-46a5-9f05-b1c8f90163a1.png">
+
+
+위에 식에서 mixing coefficient 라고 하는 Pie k 는 K번째 gaussian distribution이 선택될 확률을 나타낸다. 따라서 pie k는 아래의 두 조건을 만족해야 한다. 
+
+<img width="450" alt="Screenshot 2022-05-07 at 10 30 33" src="https://user-images.githubusercontent.com/84698855/167248328-a79de133-d4ce-44aa-8393-2ce1d03ad025.png">
+
 
 
 
