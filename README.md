@@ -1,6 +1,50 @@
 # Data-Driven-Exam
 due 17th of May
 
+* 두 변수의 연관성 * 
+ 두 변수 간에 관련이 있다.
+ 두 변수가 서로 독립이다.(관계없음)
+ 
+ 연관성의 측도 -> 공분산 / 상관계수 
+ 
+ 예시 1) 
+ 
+<img width="949" alt="Screenshot 2022-05-11 at 11 25 46" src="https://user-images.githubusercontent.com/84698855/167828700-717bef60-b25c-4402-ad51-7364dc85ffd8.png">
+
+두 변수 (키 / 몸무게) 상관관계를 알아보자. 키가 크면 몸무게가 크다. 두 변수는 상관관계가 있다. 그림에서도 보이듯이 x축 즉 키의 값이 커질수록 y축 몸무게도 커진다.
+이 뜻은 두 변수는 양의 상관관계이다. (x 축이 작아지면 y 축도 작아진다) 
+
+ 예시 2)
+ 
+반대로 한쪽의 변수가 커지고 한쪽의 변수가 작아지면 음의 상관관계 기울기를 보여준다 
+
+<img width="931" alt="Screenshot 2022-05-11 at 11 29 22" src="https://user-images.githubusercontent.com/84698855/167829328-ab833d9c-206c-4039-bef6-707909eda16f.png">
+
+예시 3)
+
+그러면 두 변수가 아무 상관관계가 없는 그래프는? (두 변수가 전혀 영향을 주지 않는 즉 두 변수가 서로 독립관계일때)
+
+<img width="913" alt="Screenshot 2022-05-11 at 11 31 10" src="https://user-images.githubusercontent.com/84698855/167829623-34b1d2df-b3ab-46ba-8b78-37175fa8a8d7.png">
+
+
+*공분산 (variance)*
+
+[양의 상관]
+
+<img width="976" alt="Screenshot 2022-05-11 at 11 43 49" src="https://user-images.githubusercontent.com/84698855/167831725-fb1aef48-9e33-44a1-a8da-dd33486283e3.png">
+
+-> 만약 평균을 x= 170 y=70 으로 놓았을때, 임의의 점 하나(양의 상관쪽)를 선택 후 그 점의 위치하는 평균값과 set평균값을 빼준다. 
+양의 상관관계이면 공분산의 값이 커진다. 
+
+[음의 상관]
+
+<img width="1001" alt="Screenshot 2022-05-11 at 11 47 22" src="https://user-images.githubusercontent.com/84698855/167832296-6c557420-18fa-42c5-8898-618e2cda29ca.png">
+
+양의 상관과 반대인 상황 즉 음의 상관관계이면 공분산 값이 작아진다. 
+
+하지만 공분산이 크다고 무조건 연광성이 높은가? 공분산은 단위,범위에 영향을 받아서 표준화를 시켜줄 필요가 있다. 
+
+<img width="776" alt="Screenshot 2022-05-11 at 11 50 42" src="https://user-images.githubusercontent.com/84698855/167832793-c1809ba4-a750-4008-ba12-fb85abacbe66.png">
 
 
 
