@@ -1,0 +1,56 @@
+from statistics import variance
+import numpy
+# import matplotlib.pyplot as plt
+# from mpl_toolkits.mplot3d import Axes3D
+import numpy as np
+import math
+from scipy.spatial import distance
+
+
+#가우스 
+x = (1/math.sqrt(2*math.pi*35.99)) * math.exp(-((-0.3)-(1.67))/ 1.2355/2)
+
+
+
+vals = [-6.2,-2.6,0.5,2.7,5.7]
+
+# 평균 구하기
+mean = sum(vals) / len(vals)
+
+
+
+# 분산 구하기 
+vsum = 0
+for val in vals:
+    vsum = vsum + (val- mean) **2
+variance = vsum / len(vals)
+
+
+# 표준 편차 구하기 
+
+std = numpy.std(vals)
+
+
+#유클리디안 거리 구하기 
+
+a = (0.6,0)
+b = (0.133,0.3)
+
+0.133,0.3
+-1.167,-0.767
+
+print(distance.euclidean(a,b))
+
+
+
+
+#공분산 확률 분포 / eigenvalue , eigenvector 구하는법 
+A = np.array([[4,0.1,-4,-0.1],[0.1,0.01,-0.1,0],[-4,-0.1,4,0.1],[-0.1,0,0.1,9]])
+
+
+eigenvalue, eigenvector = np.linalg.eig(A)
+eigenvalue = np.round(eigenvalue,5)
+eigenvalue = np.array([[eigenvalue[0],0,0],[0, eigenvalue[1],0],[0,0,eigenvalue[2]]])
+
+eigenvector = np.round(eigenvector,5)
+
