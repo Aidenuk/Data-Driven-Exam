@@ -321,7 +321,7 @@ x가 나올 확률같은 경우에 처음에 정의했던 gaussian mixture로 �
 
 <img width="335" alt="Screenshot 2022-05-09 at 12 11 28" src="https://user-images.githubusercontent.com/84698855/167398332-6d108ca5-db11-4bf2-9c28-8a44535667c5.png">   [theta : e^j2pieu]
 
-여기서 cos(2pieux), sin(2pieux) 모두 주기(period)가 1/u, 주파수(frequency) u인 주기함수이므로 결국 e^j2pieu 는 주파수 u인 정현파의 복소지수함수 표현임을 알 수 있다. 
+여기서 cos(2pieux), sin(2pieux) 모두 주기(period)가 u, 주파수(frequency) 1/u인 주기함수이므로 결국 e^j2pieu 는 주파수 u인 정현파의 복소지수함수 표현임을 알 수 있다. 
 [ 어떤 주기라는 시간마다 좌변과 우변이 같은 값을 갖게 되는 것. 어떤 주파수는 이것이 1초동안 얼마나 반복하냐 (주기의 역순) ] 그래서 위식에서 1/u 가나옴 
 
 
